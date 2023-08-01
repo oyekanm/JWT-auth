@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+/* Font size default is set to 10px */
+html{
+  font-size: 62.5%;
+}
+
+.Container {
+  @apply container mx-auto px-8 sm:px-8 md:px-12;
+}
