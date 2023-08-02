@@ -16,3 +16,9 @@ html{
 .Container {
   @apply container mx-auto px-8 sm:px-8 md:px-12;
 }
+
+@media only screen and (max-width: 25em) {
+  html{
+      font-size: 50%;
+  } 
+}
